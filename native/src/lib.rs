@@ -208,7 +208,7 @@ declare_types! {
                 }
 
                 borrow_store!(cx, |store: &mut Merk| {
-                    store.apply(batch.as_slice())
+                    store.apply(batch.as_slice(), &[])
                 });
 
                 Ok(cx.undefined().upcast())
