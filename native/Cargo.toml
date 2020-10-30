@@ -15,5 +15,5 @@ neon-build = "0.3.1"
 
 [dependencies]
 neon = "0.3.1"
-merk = { git = "https://github.com/Cofresi/merk", branch = "fix-tls-error" }
+merk = { git = "https://github.com/Cofresi/merk", branch = "updateRocks" }
 error-chain = "0.12.1"
